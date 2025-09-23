@@ -1,0 +1,11 @@
+{
+  "name": "dummy_project",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "node ./node_modules/tailwindcss/cli.js -i ./src/input.css -o ./dist/output.css --watch"
+  },
+  "devDependencies": {
+    "tailwindcss": "^4.1.13"
+  }
+}
