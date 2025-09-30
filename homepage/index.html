@@ -1,14 +1,52 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+
     <title>Homepage | peminjaman Buku</title>
-</head>
-<body>
-    lalallalalaaaaaaa
-    <p>asas
-        
-    </p>
-</body>
+  </head>
+  <body>
+    <div class="hero">
+      <nav class="navbar">
+        <div class="logo"><a href="#">Perpustakaan Digital Cindekia</a></div>
+
+        <div class="nav-links">
+          <ul>
+            <li class="hideOnMobile"><a href="#">Home</a></li>
+            <li class="hideOnMobile"><a href="#">Tentang kami</a></li>
+            <li class="hideOnMobile"><a href="#">Kontak</a></li>
+            <li class="hideOnMobile"><a href="#">Login</a></li>
+            <li>
+              <button class="hamburger" onclick="openSidebar()">☰</button>
+            </li>
+          </ul>
+          <ul class="sidebar">
+            <li><a onclick="closeSidebar()" href="#">✕</a></li>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Tentang kami</a></li>
+            <li><a href="#">Kontak</a></li>
+            <li><a href="#">Login</a></li>
+          </ul>
+        </div>
+      </nav>
+      <div class="hero-text">
+        <div class="hero-title">
+          Selamat Datang di Perpustakaan Digital Cindekia
+        </div>
+        <p>
+          Jelajahi koleksi buku digital kami dan temukan pengetahuan tanpa
+          batas.
+        </p>
+        <a href="#" class="btn">Mulai Menjelajah</a>
+        <img
+          src="images/library.webp"
+          alt="Perpustakaan Digital Cindekia"
+          class="hero-bg"
+        />
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
 </html>
